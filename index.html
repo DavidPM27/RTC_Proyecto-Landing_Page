@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mercedes-Benz description" />
+    <meta
+      name="keywords"
+      content="mercedes-benz, cars, electric cars, hybrid cars"
+    />
+    <meta name="author" content="David Pintado Morales" />
+    <title>Mercedes-Benz | Landing Page Project</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="canonical" href="https://www.mercedes-benz.es/" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a id="logo-link" href="/" class="header-container">
+          <img
+            alt="Mercedes-Benz Logo"
+            src="./assets/images/logo.png"
+            class="logo"
+          />
+        </a>
+        <ul id="products" class="header-container">
+          <li><a href="/electric" class="product-item">ELECTRIC</a></li>
+          <li><a href="/maybach" class="product-item">MAYBACH</a></li>
+          <li><a href="/accesories" class="product-item">ACCESSORIES</a></li>
+          <li><a href="/stores" class="product-item">STORES</a></li>
+        </ul>
+        <ul id="user-widget" class="header-container">
+          <li>
+            <a href="/account"
+              ><img
+                alt="Account"
+                src="./assets/images/user.png"
+                class="user-widget-item"
+            /></a>
+          </li>
+          <li>
+            <a href="/cart"
+              ><img
+                alt="Cart"
+                src="./assets/images/cart.png"
+                class="user-widget-item"
+            /></a>
+          </li>
+          <li id="dropdown-item">
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 22 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <rect
+                x="0.388184"
+                y="0.0415039"
+                width="21"
+                height="21"
+                fill="url(#pattern0_1_40)"
+              />
+              <defs>
+                <pattern
+                  id="pattern0_1_40"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                  height="1"
+                >
+                  <use xlink:href="#image0_1_40" transform="scale(0.015625)" />
+                </pattern>
+                <image
+                  id="image0_1_40"
+                  width="64"
+                  height="64"
+                  preserveAspectRatio="none"
+                  xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAB2AAAAdgB+lymcgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADBSURBVHic7dgxCsJAGEThp5LCg+kRxMOIth5IK/Uumoto4TbCLuzKEjfmfTBNSJH5Ic2AJEmSJH3qgAPQA8+RpgeOwLK0/Aw4N1CgVk6hU7ZtAx9dO5tY0XniAKu8O43KOvYwdYDJSB3gNuhXDONa8vKC9xF+/d/WyiV0KtIBe+DRQIFvcwd2oYskSVI294AGCtSKewDuAe4BUe4BCe4BuAdIkqQJcw9ooECtuAfgHuAeEOUekOAegHuAJEmSpD/2Amc4+wCHZhWWAAAAAElFTkSuQmCC"
+                />
+              </defs>
+            </svg>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <h1>New Mercedes CLS</h1>
+          <h3>The Power In Your Hands</h3>
+        </div>
+      </section>
+      <section class="featured-cars">
+        <div class="car-card">
+          <div class="car-card-heading">
+            <h2 class="car-type-h">Electric</h2>
+            <h4 class="car-name-h">Mercedes E450 Cabriolet</h4>
+          </div>
+          <img
+            alt="Mercedes E450 Cabriolet"
+            src="./assets/images/Mercedes-E450-Cabriolet.png"
+            class="car-card-image"
+          />
+          <div class="car-card-footer">
+            <button class="info-car-btn">More info</button>
+            <ul class="car-color-selector">
+              <li class="selected">
+                <button class="color-selector-item grey"></button>
+              </li>
+              <li><button class="color-selector-item red"></button></li>
+              <li><button class="color-selector-item blue"></button></li>
+              <li><button class="color-selector-item black"></button></li>
+            </ul>
+          </div>
+        </div>
+        <div class="car-card">
+          <div class="car-card-heading">
+            <h2 class="car-type-h">Hybrid</h2>
+            <h4 class="car-name-h">Mercedes GLC SUV</h4>
+          </div>
+          <img
+            alt="Mercedes GLC SUV"
+            src="./assets/images/Mercedes-GLC-SUV.png"
+            class="car-card-image"
+          />
+          <div class="car-card-footer">
+            <button class="info-car-btn">More info</button>
+            <ul class="car-color-selector">
+              <li class="selected">
+                <button class="color-selector-item black"></button>
+              </li>
+              <li><button class="color-selector-item yellow"></button></li>
+              <li><button class="color-selector-item red-2"></button></li>
+            </ul>
+          </div>
+        </div>
+        <div class="car-card">
+          <div class="car-card-heading">
+            <h2 class="car-type-h">Hybrid</h2>
+            <h4 class="car-name-h">Mercedes Benz-G-Class</h4>
+          </div>
+          <img
+            alt="Mercedes Benz-G-Class"
+            src="./assets/images/Mercedes-Benz-G-Class.png"
+            class="car-card-image"
+          />
+          <div class="car-card-footer">
+            <button class="info-car-btn">More info</button>
+            <ul class="car-color-selector">
+              <li class="selected">
+                <button class="color-selector-item black"></button>
+              </li>
+              <li><button class="color-selector-item blue-2"></button></li>
+              <li><button class="color-selector-item red-3"></button></li>
+            </ul>
+          </div>
+        </div>
+        <div class="car-card">
+          <div class="car-card-heading">
+            <h2 class="car-type-h">Electric</h2>
+            <h4 class="car-name-h">Mercedes GLC SUV</h4>
+          </div>
+          <img
+            alt="Mercedes Pure"
+            src="./assets/images/Mercedes-Pure.png"
+            class="car-card-image"
+          />
+          <div class="car-card-footer">
+            <button class="info-car-btn">More info</button>
+            <ul class="car-color-selector">
+              <li class="selected">
+                <button class="color-selector-item black"></button>
+              </li>
+              <li><button class="color-selector-item yellow"></button></li>
+              <li><button class="color-selector-item red-2"></button></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="search-store-text">
+        <h1>
+          Find your nearest <br />
+          Mercedes dealer from you.
+        </h1>
+        <p>
+          Browse over 1000 dealers worldwide, and find the one that best suits
+          your situation.
+        </p>
+      </section>
+      <section class="store-map">
+        <div class="store-map-card">
+          <h1>Discover your local Mercedes partner store</h1>
+          <button class="info-car-btn">Find a partner store near you</button>
+        </div>
+      </section>
+      <section class="products-info">
+        <div class="products-cards-container">
+          <div class="car-card">
+            <div class="car-card-heading">
+              <h2 class="car-type-h">Confort</h2>
+            </div>
+            <img
+              alt="Confort"
+              src="./assets/images/confort.jpg"
+              class="car-card-image"
+            />
+            <div class="car-card-footer">
+              <button class="info-car-btn">More info</button>
+            </div>
+          </div>
+          <div class="car-card">
+            <div class="car-card-heading">
+              <h2 class="car-type-h">Technology</h2>
+            </div>
+            <img
+              alt="Technology"
+              src="./assets/images/technology.png"
+              class="car-card-image"
+            />
+            <div class="car-card-footer">
+              <button class="info-car-btn">More info</button>
+            </div>
+          </div>
+          <div class="car-card">
+            <div class="car-card-heading">
+              <h2 class="car-type-h">Accesories</h2>
+            </div>
+            <img
+              alt="Accesories"
+              src="./assets/images/accesories.jpg"
+              class="car-card-image"
+            />
+            <div class="car-card-footer">
+              <button class="info-car-btn">More info</button>
+            </div>
+          </div>
+          <div class="car-card">
+            <div class="car-card-heading">
+              <h2 class="car-type-h">Confort</h2>
+            </div>
+            <img
+              alt="Confort"
+              src="./assets/images/confort.jpg"
+              class="car-card-image"
+            />
+            <div class="car-card-footer">
+              <button class="info-car-btn">More info</button>
+            </div>
+          </div>
+          <div class="car-card">
+            <div class="car-card-heading">
+              <h2 class="car-type-h">Technology</h2>
+            </div>
+            <img
+              alt="Technology"
+              src="./assets/images/technology.png"
+              class="car-card-image"
+            />
+            <div class="car-card-footer">
+              <button class="info-car-btn">More info</button>
+            </div>
+          </div>
+          <div class="car-card">
+            <div class="car-card-heading">
+              <h2 class="car-type-h">Accesories</h2>
+            </div>
+            <img
+              alt="Accesories"
+              src="./assets/images/accesories.jpg"
+              class="car-card-image"
+            />
+            <div class="car-card-footer">
+              <button class="info-car-btn">More info</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="design-award-desktop">
+        <div class="design-award-text p-text-14">
+          <h1>Red as tentation</h1>
+          <p>
+            Good design is what drives us, and we're <br />
+            to share that Mercedes-Maybach has <br />already won the prestigious
+            Best Design <br />
+            Award 2023, as judged by the world's best <br />
+            product designers.
+          </p>
+        </div>
+      </section>
+      <section class="design-award-mobile">
+        <img alt="Design award" src="./assets/images/mercedes-maybach-bg.png" />
+        <div class="design-award-text p-text-14">
+          <h1>Red as tentation</h1>
+          <p>
+            Good design is what drives us, and we're to share that
+            Mercedes-Maybach has already won the prestigious Best Design Award
+            2023, as judged by the world's best product designers.
+          </p>
+        </div>
+      </section>
+      <section class="mercedes-program-desktop">
+        <div class="mercedes-program-text p-text-14 color-dark">
+          <h1>
+            The Mercedes-Maybach <br />
+            wheel programme
+          </h1>
+          <p>
+            The exclusive Mercedes-Maybach wheel programme, e.g. with <br />
+            optional 53.3 cm (21") Maybach forged wheels in multi-spoke <br />
+            design.
+          </p>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+        <img
+          alt="Mercedes Maybach Wheel"
+          src="./assets/images/mercedes-maybach-program.png"
+          class="mercedes-program-image"
+        />
+      </section>
+      <section class="mercedes-program-mobile p-text-14 color-dark">
+        <h1>
+          The Mercedes-Maybach <br />
+          wheel programme
+        </h1>
+        <img
+          alt="Mercedes Maybach Wheel"
+          src="./assets/images/mercedes-maybach-program.png"
+          class="mercedes-program-image"
+        />
+        <p>
+          The exclusive Mercedes-Maybach wheel programme, e.g. with optional
+          53.3 cm (21") Maybach forged wheels in multi-spoke design.
+        </p>
+        <button class="learn-more-btn">Learn More</button>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-wrapper">
+        <p>
+          Ready to own the car of your dreams?. Mercedes-Maybach are now
+          available in <br />
+          available at our dealers by appointment only.
+        </p>
+        <button class="info-car-btn">CONTACT NOW</button>
+      </div>
+      <div class="footer-container">
+        <div class="footer-newsletter">
+          <h5>Join the power.</h5>
+          <p class="p-text-14 nuckle">Sign up for our newsletter.</p>
+          <div class="form-newsletter">
+            <form action="#" method="post" class="newsletter-form">
+              <div class="email-container">
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Enter your email address here"
+                />
+                <button type="submit" class="info-car-btn">Subscribe</button>
+              </div>
+              <div class="sign-up-container">
+                <input
+                  type="checkbox"
+                  id="sign-up-input"
+                  class="sign-up-check"
+                />
+                <label for="sign-up-input"
+                  >By signing up, I agree to the
+                  <a href="/privacy" class="p-text-14 nuckle">privacy policy</a>
+                  of Veloretti.</label
+                >
+              </div>
+            </form>
+          </div>
+          <div class="social-media-container">
+            <ul class="links-list-container">
+              <li>
+                <a href="/facebook"
+                  ><svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_648)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M0.310303 6.99639C0.310303 10.2428 2.66863 12.9425 5.75301 13.4899V8.77364H4.1202V6.95993H5.75301V5.50864C5.75301 3.87614 6.80509 2.96956 8.29312 2.96956C8.76446 2.96956 9.27286 3.04193 9.74413 3.1143V4.78327H8.90979C8.11134 4.78327 7.9301 5.18214 7.9301 5.69039V6.95993H9.67173L9.38165 8.77364H7.9301V13.4899C11.0145 12.9425 13.3728 10.2434 13.3728 6.99639C13.3728 3.38476 10.4337 0.429932 6.84155 0.429932C3.24937 0.429932 0.310303 3.38476 0.310303 6.99639Z"
+                        fill="white"
+                        fill-opacity="0.9"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_648">
+                        <rect
+                          width="13.0625"
+                          height="13.06"
+                          fill="white"
+                          transform="translate(0.310303 0.429932)"
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="/instagram"
+                  ><svg
+                    width="15"
+                    height="15"
+                    viewBox="0 0 15 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_651)">
+                      <path
+                        d="M7.37092 5.16567C6.08557 5.16567 5.03663 6.21464 5.03663 7.5C5.03663 8.78536 6.08557 9.83432 7.37092 9.83432C8.65626 9.83432 9.7052 8.78536 9.7052 7.5C9.7052 6.21464 8.65626 5.16567 7.37092 5.16567ZM14.372 7.5C14.372 6.53335 14.3807 5.57545 14.3265 4.61055C14.2722 3.48979 14.0165 2.49512 13.197 1.67557C12.3757 0.854259 11.3828 0.600338 10.2621 0.546052C9.29543 0.491765 8.33755 0.500521 7.37267 0.500521C6.40603 0.500521 5.44815 0.491765 4.48327 0.546052C3.36254 0.600338 2.36788 0.856011 1.54835 1.67557C0.727056 2.49687 0.473139 3.48979 0.418854 4.61055C0.364568 5.5772 0.373324 6.5351 0.373324 7.5C0.373324 8.4649 0.364568 9.42455 0.418854 10.3894C0.473139 11.5102 0.728808 12.5049 1.54835 13.3245C2.36963 14.1457 3.36254 14.3997 4.48327 14.4539C5.44991 14.5083 6.40778 14.4995 7.37267 14.4995C8.3393 14.4995 9.29718 14.5083 10.2621 14.4539C11.3828 14.3997 12.3775 14.1439 13.197 13.3245C14.0183 12.5031 14.2722 11.5102 14.3265 10.3894C14.3825 9.42455 14.372 8.46665 14.372 7.5ZM7.37092 11.0917C5.38337 11.0917 3.77931 9.48759 3.77931 7.5C3.77931 5.51241 5.38337 3.90832 7.37092 3.90832C9.35848 3.90832 10.9625 5.51241 10.9625 7.5C10.9625 9.48759 9.35848 11.0917 7.37092 11.0917ZM11.1096 4.60004C10.6456 4.60004 10.2708 4.22528 10.2708 3.76122C10.2708 3.29716 10.6456 2.92241 11.1096 2.92241C11.5737 2.92241 11.9484 3.29716 11.9484 3.76122C11.9486 3.87142 11.927 3.98055 11.8849 4.08239C11.8428 4.18422 11.781 4.27674 11.7031 4.35467C11.6251 4.43259 11.5326 4.49436 11.4308 4.53647C11.329 4.57857 11.2198 4.60018 11.1096 4.60004Z"
+                        fill="white"
+                        fill-opacity="0.9"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_651">
+                        <rect
+                          width="14"
+                          height="14"
+                          fill="white"
+                          transform="translate(0.372803 0.5)"
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="/spotify"
+                  ><svg
+                    width="15"
+                    height="15"
+                    viewBox="0 0 15 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_654)">
+                      <path
+                        d="M8.54165 7.37823L6.90395 6.61406C6.76103 6.54771 6.64363 6.62208 6.64363 6.78031V8.21969C6.64363 8.37792 6.76103 8.45229 6.90395 8.38594L8.54093 7.62177C8.68457 7.55469 8.68457 7.44531 8.54165 7.37823ZM7.3728 0.5C3.50676 0.5 0.372803 3.63396 0.372803 7.5C0.372803 11.366 3.50676 14.5 7.3728 14.5C11.2388 14.5 14.3728 11.366 14.3728 7.5C14.3728 3.63396 11.2388 0.5 7.3728 0.5ZM7.3728 10.3438C3.78968 10.3438 3.72697 10.0207 3.72697 7.5C3.72697 4.97927 3.78968 4.65625 7.3728 4.65625C10.9559 4.65625 11.0186 4.97927 11.0186 7.5C11.0186 10.0207 10.9559 10.3438 7.3728 10.3438Z"
+                        fill="white"
+                        fill-opacity="0.9"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_654">
+                        <rect
+                          width="14"
+                          height="14"
+                          fill="white"
+                          transform="translate(0.372803 0.5)"
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="/linkedin"
+                  ><svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_657)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M0.372803 1.62003C0.372803 1.32298 0.490806 1.0381 0.700852 0.828049C0.910898 0.618003 1.19578 0.500002 1.49283 0.500002H12.6578C12.805 0.499761 12.9508 0.528558 13.0869 0.584744C13.2229 0.640931 13.3466 0.723403 13.4507 0.827439C13.5549 0.931475 13.6375 1.05504 13.6938 1.19104C13.7501 1.32704 13.7791 1.47282 13.779 1.62003V12.7849C13.7792 12.9322 13.7503 13.078 13.694 13.2141C13.6378 13.3501 13.5553 13.4738 13.4512 13.5779C13.3471 13.6821 13.2235 13.7647 13.0875 13.821C12.9514 13.8773 12.8056 13.9063 12.6584 13.9062H1.49283C1.3457 13.9062 1.2 13.8772 1.06407 13.8209C0.928147 13.7645 0.804649 13.682 0.700636 13.5779C0.596624 13.4738 0.514136 13.3503 0.457885 13.2143C0.401634 13.0784 0.372723 12.9327 0.372803 12.7855V1.62003ZM5.67922 5.61143H7.49455V6.52305C7.75658 5.99899 8.42689 5.52734 9.43418 5.52734C11.3653 5.52734 11.8229 6.57119 11.8229 8.48645V12.0342H9.86867V8.92276C9.86867 7.83199 9.60664 7.21652 8.9412 7.21652C8.018 7.21652 7.63409 7.88013 7.63409 8.92276V12.0342H5.67922V5.61143ZM2.32767 11.9507H4.28254V5.52734H2.32767V11.9507ZM4.56224 3.43231C4.56593 3.59969 4.53614 3.76612 4.47464 3.92183C4.41313 4.07754 4.32114 4.2194 4.20407 4.33908C4.087 4.45876 3.9472 4.55385 3.79288 4.61876C3.63856 4.68368 3.47283 4.71712 3.30541 4.71712C3.13799 4.71712 2.97226 4.68368 2.81794 4.61876C2.66362 4.55385 2.52382 4.45876 2.40675 4.33908C2.28967 4.2194 2.19769 4.07754 2.13618 3.92183C2.07468 3.76612 2.04489 3.59969 2.04858 3.43231C2.05581 3.10377 2.1914 2.79112 2.42632 2.56132C2.66123 2.33153 2.97679 2.20285 3.30541 2.20285C3.63403 2.20285 3.94959 2.33153 4.1845 2.56132C4.41941 2.79112 4.55501 3.10377 4.56224 3.43231Z"
+                        fill="white"
+                        fill-opacity="0.9"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_657">
+                        <rect
+                          width="13.4062"
+                          height="13.4062"
+                          fill="white"
+                          transform="translate(0.372803 0.5)"
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="/tiktok"
+                  ><svg
+                    width="14"
+                    height="16"
+                    viewBox="0 0 14 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_660)">
+                      <path
+                        d="M12.0819 3.68524C11.9814 3.6333 11.8835 3.57634 11.7887 3.5146C11.5129 3.3323 11.26 3.11749 11.0355 2.87482C10.4738 2.23224 10.2641 1.58036 10.1868 1.12396H10.1899C10.1254 0.745114 10.152 0.5 10.1561 0.5H7.59777V10.3908C7.59777 10.5236 7.59777 10.6549 7.59218 10.7846C7.59218 10.8007 7.59063 10.8156 7.5897 10.833C7.5897 10.8401 7.5897 10.8476 7.58815 10.855V10.8606C7.56119 11.2155 7.4474 11.5582 7.25682 11.8589C7.06623 12.1595 6.80469 12.4087 6.49519 12.5845C6.17263 12.768 5.80779 12.8642 5.43668 12.8637C4.24473 12.8637 3.27869 11.8919 3.27869 10.6918C3.27869 9.49167 4.24473 8.5199 5.43668 8.5199C5.66231 8.51969 5.88655 8.55518 6.10108 8.62508L6.10418 6.02066C5.45293 5.93655 4.79131 5.9883 4.16105 6.17265C3.53081 6.35698 2.94561 6.66993 2.44237 7.09172C2.00143 7.47478 1.63072 7.93184 1.34693 8.44233C1.23894 8.62849 0.831485 9.37656 0.782145 10.5907C0.751112 11.2797 0.958098 11.9937 1.05678 12.2888V12.295C1.11884 12.4687 1.35935 13.0617 1.75128 13.5615C2.06732 13.9625 2.44072 14.3146 2.85945 14.6068V14.6006L2.86566 14.6068C4.10415 15.4482 5.47733 15.393 5.47733 15.393C5.71504 15.3834 6.51133 15.393 7.41561 14.9646C8.41858 14.4896 8.98956 13.7818 8.98956 13.7818C9.35435 13.3589 9.64441 12.877 9.8473 12.3567C10.0788 11.7483 10.1561 11.0185 10.1561 10.7269V5.47955C10.1871 5.49817 10.6005 5.77152 10.6005 5.77152C10.6005 5.77152 11.196 6.15315 12.125 6.40168C12.7917 6.57853 13.6897 6.61576 13.6897 6.61576V4.0765C13.375 4.11063 12.736 4.01135 12.0819 3.68524Z"
+                        fill="white"
+                        fill-opacity="0.9"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_660">
+                        <rect
+                          width="12.9107"
+                          height="14.8938"
+                          fill="white"
+                          transform="translate(0.779007 0.5)"
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-link-section">
+            <h5>Explorer</h5>
+            <ul class="links-list-container">
+              <li>
+                <a href="/electric-bikes" class="link-item footer-regular-text"
+                  >Electric bikes</a
+                >
+              </li>
+              <li>
+                <a href="/city-bikes" class="link-item footer-regular-text"
+                  >City bikes</a
+                >
+              </li>
+              <li>
+                <a href="/kids-bikes" class="link-item footer-regular-text"
+                  >Kids' bikes</a
+                >
+              </li>
+              <li>
+                <a href="/accesories" class="link-item footer-regular-text"
+                  >Accesories</a
+                >
+              </li>
+              <li>
+                <a href="/outlet" class="link-item footer-regular-text"
+                  >Outlet</a
+                >
+              </li>
+              <li>
+                <a href="/business" class="link-item footer-regular-text"
+                  >Business</a
+                >
+              </li>
+              <li>
+                <a href="/insurance" class="link-item footer-regular-text"
+                  >Insurance Electric</a
+                >
+              </li>
+              <li>
+                <a href="/size-guide" class="link-item footer-regular-text"
+                  >Size guide</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-link-section">
+            <h5>About</h5>
+            <ul class="links-list-container">
+              <li>
+                <a href="/about" class="link-item footer-regular-text"
+                  >About us</a
+                >
+              </li>
+              <li>
+                <a href="/journal" class="link-item footer-regular-text"
+                  >Journal</a
+                >
+              </li>
+              <li>
+                <a href="/reviews" class="link-item footer-regular-text"
+                  >Reviews</a
+                >
+              </li>
+              <li>
+                <a href="/press" class="link-item footer-regular-text">Press</a>
+              </li>
+              <li>
+                <a href="/jobs" class="link-item footer-regular-text">Jobs</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-link-section">
+            <h5>Help</h5>
+            <ul class="links-list-container">
+              <li>
+                <a href="/contact" class="link-item footer-regular-text"
+                  >Contact</a
+                >
+              </li>
+              <li>
+                <a href="/faq" class="link-item footer-regular-text">FAQ</a>
+              </li>
+              <li>
+                <a href="/delivery" class="link-item footer-regular-text"
+                  >Delivery</a
+                >
+              </li>
+              <li>
+                <a href="/manuals" class="link-item footer-regular-text"
+                  >Assembly & manuals</a
+                >
+              </li>
+              <li>
+                <a href="/payment" class="link-item footer-regular-text"
+                  >Payment options</a
+                >
+              </li>
+              <li>
+                <a href="/privacy" class="link-item footer-regular-text"
+                  >Privacy policy</a
+                >
+              </li>
+              <li>
+                <a href="/terms" class="link-item footer-regular-text"
+                  >Terms & conditions</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a href="#" class="init-btn">
+          <svg
+            width="22"
+            height="26"
+            viewBox="0 0 22 26"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_1_333)">
+              <path
+                d="M10.0418 1.26346L1.24303 9.3592C0.773675 9.81348 0.612163 10.7883 1.13159 11.3197C1.65133 11.8512 2.63721 11.8477 3.15306 11.3128L9.60748 5.38169V23.8357C9.60748 24.5808 10.2296 25.185 10.9968 25.185C11.764 25.185 12.3862 24.5808 12.3862 23.8357V5.38169L18.8406 11.3128C19.3565 11.8477 20.3798 11.8832 20.8621 11.3197C21.3078 10.7989 21.3272 9.83201 20.7506 9.3592L11.9519 1.26346C11.5966 0.919293 10.6623 0.651056 10.0418 1.26346Z"
+                fill="black"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_1_333">
+                <rect
+                  width="20.3809"
+                  height="24.287"
+                  fill="white"
+                  transform="translate(0.80957 0.897949)"
+                />
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
